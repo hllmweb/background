@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#topo{
+    height:500px;
+    background-color:blue;
+    position: relative; 
+}
+.mouse-icon {
+    background: none;
+    border: 2px solid;
+    border-radius: 28px;
+    bottom: 0px;
+    height: 44px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    cursor: pointer;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+/*
+.mouse-icon {
+    border: 2px solid;
+    border-radius: 15px;
+    bottom: 70px;
+    height: 50px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 27px;
+    cursor: pointer;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}*/
+
+.mouse-icon .wheel {
+    -webkit-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    -moz-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    -o-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    border-radius: 30%;
+    background: #fff;
+    height: 12px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    right: 0;
+    width: 6px;
+}
+/*
+.mouse-icon .wheel {
+    -webkit-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    -moz-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    -o-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+    border-radius: 30%;
+    background: #fff;
+    height: 12px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    right: 0;
+    width: 5px;
+}*/
+
+a.inner-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro-scroller {
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    z-index: 9999;
+    width: 100%;
+    bottom: 20px;
+}
+
+
+@keyframes magic-mouse-icon { 0%   { margin-top: 6px; opacity: 0;} 30%  { opacity: 1;} 100% { margin-top: 18px; opacity: 0;} }
+
+a, a:visited, a:focus, a:active, a:hover {
+    outline: 0 none !important;
+}
